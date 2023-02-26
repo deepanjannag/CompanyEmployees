@@ -30,9 +30,10 @@ namespace CompanyEmployees
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.ConfigureCors();               //Using extension method we created
-            services.ConfigureIISIntegration();     //Using extension method we created
-            services.ConfigureLoggerService();      //Using extension method we created    
+            services.ConfigureCors();                       //Using extension method we created
+            services.ConfigureIISIntegration();             //Using extension method we created
+            services.ConfigureLoggerService();              //Using extension method we created
+            services.ConfigureSqlContext(Configuration);    //Using extension method we created
 
             services.AddControllers();            
         }
