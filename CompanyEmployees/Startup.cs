@@ -61,7 +61,7 @@ namespace CompanyEmployees
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllers();         //adds an endpoint for the controller’s action to the routing without specifying any routes
             });
         }
     }
