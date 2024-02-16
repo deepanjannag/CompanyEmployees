@@ -23,7 +23,7 @@ namespace CompanyEmployees.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        //Testing
+        //Testing done
 
         [HttpGet]
         public IEnumerable<string> Get()
