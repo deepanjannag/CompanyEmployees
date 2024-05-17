@@ -21,6 +21,7 @@ namespace CompanyEmployees
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //Changes made
                 });
     }
 }
